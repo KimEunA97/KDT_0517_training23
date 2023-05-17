@@ -4,7 +4,7 @@ pokemonList.splice(0, 2, "야도란", "또가스")
 
 
 //데이터 교체 함수
-function exampleOne(array, change1, change2) {
+function exampleOne(array: Array<string>, change1: string, change2: string) {
   const result = array.splice(0, 2, change1, change2)
   return result.join("");
 }
